@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang='zh-cn'>
+<head>
+  <meta charset=utf-8>
+  <meta name=viewport content="width=device-width, initial-scale=1">
+  <title>瀑布流-懒加载-ajax</title>
+  <link rel="stylesheet" type="text/css" href="common.css">
+  <link rel="stylesheet" type="text/css" href="WaterFall.css">
+</head>
+<body>
+
+  <div class="container">
+    <header id="header">
+      <h3>布局效果</h3>
+      <p class="desp">点击查看轮播效果</p>
+      <div class="btn-group">
+        <a href="RollCarousel.html" class="exposure-load-btn button is-outlined active">瀑布流布局</a>
+        <a href="FadeCarousel.html" class="calendar-btn button is-outlined ">木桶布局</a>
+      </div>
+    </header><!-- /header -->
+    <div class="content">
+      <div class="wrap">
+        <div class="ct-waterfall">
+          <ul id="pic-ct">
+            <!--<li class="item">
+              <a href="#" clas
+              s="link">
+                <img src="http://s.img.mix.sina.com.cn/auto/resize?img=http%3A%2F%2Fwww.sinaimg.cn%2Fdy%2Fslidenews%2F5_img%2F2016_09%2F453_75615_657883.jpg&size=250_0" alt="">
+              </a>
+              <h4 class="header">标题</h4>
+              <p class="desp">
+                当地时间2016年3月1日，在东部与亲俄武装作战中受伤的乌克兰士兵接受海豚治疗。
+              </p>
+            </li>-->
+            <!-- 用于计算 item 宽度和列数，但不展示出来-->
+            <li class="item hide"></li>
+          </ul>
+          <div class="load">看不见我</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="jquery.min.js"></script>
+  <script src="WaterFall.js"></script>
+</body>
+
+</html>

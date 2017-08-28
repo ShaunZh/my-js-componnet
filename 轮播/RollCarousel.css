@@ -1,0 +1,78 @@
+/*
+* @Author: Marte
+* @Date:   2017-08-28 08:54:21
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-08-28 08:54:32
+*/
+*{
+  margin: 0;
+  padding: 0;
+}
+ul li{
+  list-style: none;
+}
+a{
+  color: #444;
+  text-decoration: none;
+}
+.carousel{
+  position: relative;
+  width: 320px;
+  height: 240px;
+  margin: 10px auto;
+  border: 1px solid #DEDEDE;
+  overflow: hidden;
+}
+.carousel__img-wrap{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.carousel__img-wrap>li{
+  float: left;
+  height: 240px;
+}
+.carousel__img-wrap img{
+  width: 320px;
+  height: 240px;
+}
+.carousel--icon{
+  position: absolute;
+  top: 50%;
+  margin-top: -10px;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  z-index: 10;
+  font-size: 20px;
+  text-align: center;
+  line-height: 30px;
+  color: #fff;
+  background: rgba(88, 88, 88, .9);
+}
+.carousel--play-pre{
+  left: 20px;
+}
+.carousel--play-next{
+  right: 20px;
+}
+.carousel__display-index{
+  position: absolute;
+  z-index: 10;
+  bottom: 10px;
+  left: 72px;
+}
+.carousel__display-index>li{
+  float: left;
+  width: 30px;
+  height: 8px;
+  margin-left: 10px;
+  border: 1px solid #D5D0D0;
+  border-radius: 5px;
+}
+.carousel__display-index>li:hover{
+  cursor: pointer;
+}
+.carousel__display-index .active{
+  background-color: #D5D0D0;
+}

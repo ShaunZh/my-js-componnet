@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang='zh-cn'>
+<head>
+  <meta charset=utf-8>
+  <meta name=viewport content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="common.css">
+  <link rel="stylesheet" type="text/css" href="Tab.css">
+  <title>TAB 组件</title>
+</head>
+<body>
+
+  <div class="container">
+    <header id="header">
+      <h3>常见效果实现</h3>
+      <p class="desp">请点击tab1、tab2、tab3查看效果</p>
+      <div class="btn-group">
+        <a href="Exposure.html" class="exposure-load-btn button is-outlined">懒加载</a>
+        <a href="Calendar.html" class="calendar-btn button is-outlined ">日历组件</a>
+        <a href="Modal.html" class="modal-btn button is-outlined ">modal组件</a>
+        <a href="Tab.html" class="calendar-btn button is-outlined active active">Tab组件</a>
+      </div>
+    </header><!-- /header -->
+    <div class="content">
+      <div class="btn-group">
+        <button class=" button is-outlined ">tab1</button>
+        <button class=" button is-outlined ">tab2</button>
+        <button class=" button is-outlined ">tab3</button>
+      </div>
+
+      <div class="view">
+        <ul>
+          <li class='cont-1 active'>内容1</li>
+          <li class='cont-2'>内容2</li>
+          <li class='cont-3'>内容3</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <script src="jquery.min.js"></script>
+  <script src="Tab.js"></script>
+</body>
+</html>

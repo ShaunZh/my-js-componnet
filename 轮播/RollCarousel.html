@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang='zh-cn'>
+<head>
+  <meta charset=utf-8>
+  <meta name=viewport content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="common.css">
+  <link rel="stylesheet" type="text/css" href="RollCarousel.css">
+  <title>滚动轮播</title>
+</head>
+<body>
+  <div class="container">
+    <header id="header">
+      <h3>轮播效果</h3>
+      <p class="desp">点击查看轮播效果</p>
+      <div class="btn-group">
+        <a href="RollCarousel.html" class="exposure-load-btn button is-outlined active">滚动轮播</a>
+        <a href="FadeCarousel.html" class="calendar-btn button is-outlined ">淡入淡出轮播</a>
+      </div>
+    </header><!-- /header -->
+    <div class="content">
+      <div class="carousel">
+        <ul class="carousel__img-wrap">
+          <li><a href="#"><img src="http://cdn.jirengu.com/book.jirengu.com/img/1.jpg" alt="" /></a></li>
+          <li><a href="#"><img src="http://cdn.jirengu.com/book.jirengu.com/img/2.jpg" alt="" /></a></li>
+          <li><a href="#"><img src="http://cdn.jirengu.com/book.jirengu.com/img/3.jpg" alt="" /></a></li>
+          <li><a href="#"><img src="http://cdn.jirengu.com/book.jirengu.com/img/4.jpg" alt="" /></a></li>
+        </ul>
+
+
+        <a href="#" class="carousel--play-pre carousel--icon">&lt;</a>
+        <a href="#" class="carousel--play-next carousel--icon">&gt;</a>
+
+        <ul class="carousel__display-index">
+          <li class="active"></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <script src="jquery.min.js"></script>
+  <script src="RollCarousel.js"></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+/*
+* @Author: Marte
+* @Date:   2017-08-28 01:21:06
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-08-28 01:54:55
+*/
+
+
+.exposure-load li{
+  float: left;
+  margin: 10px 10px;
+}
+.exposure-load img{
+  width: 240px;
+  height: 180px;
+}

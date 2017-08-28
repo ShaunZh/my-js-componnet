@@ -1,0 +1,86 @@
+/*
+* @Author: Marte
+* @Date:   2017-08-28 09:37:34
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-08-28 09:40:33
+*/
+/*
+* @Author: Marte
+* @Date:   2017-08-28 01:54:34
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-08-28 08:46:00
+*/
+ul,li{
+  list-style:none;
+}
+
+a {text-decoration: none;}
+
+p{ margin: 0}
+
+body {
+
+  font-size: 15px;
+  font-family: 'Open Sans Condensed','Arial Narrow',serif;
+}
+.clearfix:after,
+.clearfix:before{
+  content: "";
+  display: table;
+}
+
+.clearfix:after{
+  clear: both;
+}
+
+.clearfix{
+  *zoom: 1;
+}
+
+.container {
+  max-width: 600px;
+  margin: 20px auto;
+  border: 1px solid #00d1b2;
+  min-height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container > content {
+  margin: 0 auto;
+}
+.container > header {
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.container > header > .desp {
+  margin-bottom: 20px;
+}
+
+
+ .button{
+  padding: 10px;
+  border-radius: 4px;
+ }
+ .button.is-outlined{
+  border: 1px solid #00d1b2;
+  background-color: transparent;
+  border-color: #00d1b2;
+  color: #00d1b2;
+ }
+
+ .button.is-outlined.active{
+  background-color: #00d1b2;
+  color: #fff;
+ }
+
+.button:hover{
+  cursor: pointer;
+  background-color: #00d1b2;
+  color: #fff;
+}

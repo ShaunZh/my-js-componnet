@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang='zh-cn'>
+<head>
+  <meta charset=utf-8>
+  <meta name=viewport content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="common.css">
+  <link rel="stylesheet" type="text/css" href="Calendar.css">
+  <title>日历组件</title>
+</head>
+<body>
+  <div class="container">
+    <header id="header">
+      <h3>常见效果实现</h3>
+      <p class="desp">请点击输入框查看效果</p>
+      <div class="btn-group">
+        <a href="Exposure.html" class="exposure-load-btn button is-outlined">懒加载</a>
+        <a href="Calendar.html" class="calendar-btn button is-outlined active">日历组件</a>
+        <a href="Modal.html" class="modal-btn button is-outlined ">modal组件</a>
+        <a href="Tab.html" class="calendar-btn button is-outlined ">Tab组件</a>
+      </div>
+    </header><!-- /header -->
+
+    <div class="content">
+      <div class="calendar">
+        <div class="calendar__input">
+          <label for="date" >
+            <input id = 'date' class='date-input' type="text" name="calendar" value="" placeholder='选择日期'>
+          </label>
+        </div>
+        <div class="calendar__select--wrap">
+          <div class="calendar__select">
+            <div class="calendar-header clearfix">
+              <div class="date-pre">
+                <span class="icon icon-pre-pre icon-pre-year"></span>
+                <span class="icon icon-pre icon-pre-month"></span>
+              </div>
+              <div class="year-month-wrap">
+                <span class="cur-year-month">2017年7月</span>
+              </div>
+              <div class="date-next">
+                <sapn class="icon icon-next icon-next-month"></sapn>
+                <sapn class="icon icon-next-next icon-next-year"></sapn>
+              </div>
+            </div>
+
+            <table class="calendar-content">
+              <caption></caption>
+              <thead>
+                <tr>
+                  <th>Mon</th>
+                  <th>Tus</th>
+                  <th>Wed</th>
+                  <th>Thu</th>
+                  <th>Fri</th>
+                  <th>Sat</th>
+                  <th>Sun</th>
+                </tr>
+              </thead>
+
+            </table>
+          </div>
+        </div>
+      </div>
+      <div class="calendar">
+        <div class="calendar__input">
+          <label for="date" >
+            <input id = 'date' class='date-input' type="text" name="calendar" value="" placeholder='不清除日期'>
+          </label>
+        </div>
+        <div class="calendar__select--wrap">
+          <div class="calendar__select">
+            <div class="calendar-header clearfix">
+              <div class="date-pre">
+                <span class="icon icon-pre-pre icon-pre-year"></span>
+                <span class="icon icon-pre icon-pre-month"></span>
+              </div>
+              <div class="year-month-wrap">
+                <span class="cur-year-month">2017年7月</span>
+              </div>
+              <div class="date-next">
+                <sapn class="icon icon-next icon-next-month"></sapn>
+                <sapn class="icon icon-next-next icon-next-year"></sapn>
+              </div>
+            </div>
+
+            <table class="calendar-content">
+              <caption></caption>
+              <thead>
+                <tr>
+                  <th>Mon</th>
+                  <th>Tus</th>
+                  <th>Wed</th>
+                  <th>Thu</th>
+                  <th>Fri</th>
+                  <th>Sat</th>
+                  <th>Sun</th>
+                </tr>
+              </thead>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  <div>
+  <script src="jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
+   <script src="Calendar.js"></script>
+</body>
+</html>
